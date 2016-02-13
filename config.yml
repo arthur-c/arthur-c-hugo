@@ -1,0 +1,11 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "http://arthur-c.github.io/"
+title: "Arthur's Pages"
+canonifyurls: true
+theme: hyde
+...
