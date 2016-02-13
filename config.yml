@@ -6,6 +6,13 @@ indexes:
   category: "categories"
 baseurl: "http://arthur-c.github.io/"
 title: "Arthur's Pages"
-canonifyurls: true
-theme: hyde
+canonifyurls: false
+theme: "hyde"
+params:
+  description: "clement.arthur@gmail.com"
+  author: "Arthur Clément"
+  github: "https://github.com/arthur-c"
+  disqusShortname: "arthurc"
 ...
+
+
