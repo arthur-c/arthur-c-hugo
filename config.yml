@@ -9,10 +9,11 @@ title: "Arthur's Pages"
 canonifyurls: false
 theme: "hyde"
 params:
-  description: "clement.arthur@gmail.com"
+  description: "void"
   author: "Arthur Clément"
   github: "https://github.com/arthur-c"
   disqusShortname: "arthurc"
+  copyright: "clement.arthur@gmail.com"
 ...
 
 
