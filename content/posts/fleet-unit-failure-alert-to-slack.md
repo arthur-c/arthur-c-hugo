@@ -198,21 +198,21 @@ Conflicts=my_app-unit-status@*.service
 Here's an application failure, so a unit failure as well:
 
 ```
-Dec 12 13:47:08 coreos-worker-17 sh[24265]: ERROR org.springframework.boot.SpringApplication - Application startup failed
+Dec 12 13:47:08 coreos-worker-01 sh[24265]: ERROR org.springframework.boot.SpringApplication - Application startup failed
 ```
 
 #### my_app-unit-status logs:
 
 ```
-Dec 12 13:47:17 coreos-worker-17 docker[24451]: 8f40a5710c12: Pull complete
-Dec 12 13:47:17 coreos-worker-17 docker[24451]: e2a9a58db0c5: Pull complete
-Dec 12 13:47:17 coreos-worker-17 docker[24451]: b9091050870f: Pull complete
-Dec 12 13:47:17 coreos-worker-17 docker[24451]: Digest: sha256:4be490e3e800b0419fef34d238fa36ef3aaeadda4cf09347c4a10f71ad7c390e
-Dec 12 13:47:17 coreos-worker-17 docker[24451]: Status: Downloaded newer image for anigeo/awscli:latest
-Dec 12 13:47:18 coreos-worker-17 docker[24475]: {
-Dec 12 13:47:18 coreos-worker-17 docker[24475]: "MessageId": "266ab798-3e00-511e-9368-f8afdaa6e23b"
-Dec 12 13:47:18 coreos-worker-17 docker[24475]: }
-Dec 12 13:47:18 coreos-worker-17 systemd[1]: Started Monitor runmylog unit status.
+Dec 12 13:47:17 coreos-worker-01 docker[24451]: 8f40a5710c12: Pull complete
+Dec 12 13:47:17 coreos-worker-01 docker[24451]: e2a9a58db0c5: Pull complete
+Dec 12 13:47:17 coreos-worker-01 docker[24451]: b9091050870f: Pull complete
+Dec 12 13:47:17 coreos-worker-01 docker[24451]: Digest: sha256:4be490e3e800b0419fef34d238fa36ef3aaeadda4cf09347c4a10f71ad7c390e
+Dec 12 13:47:17 coreos-worker-01 docker[24451]: Status: Downloaded newer image for anigeo/awscli:latest
+Dec 12 13:47:18 coreos-worker-01 docker[24475]: {
+Dec 12 13:47:18 coreos-worker-01 docker[24475]: "MessageId": "266ab798-3e00-511e-9368-f8afdaa6e23b"
+Dec 12 13:47:18 coreos-worker-01 docker[24475]: }
+Dec 12 13:47:18 coreos-worker-01 systemd[1]: Started Monitor mylog unit status.
 ```
 
 #### Slack
