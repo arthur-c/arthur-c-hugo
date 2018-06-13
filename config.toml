@@ -1,4 +1,4 @@
-baseURL = "http://arthur-c.github.io/"
+baseURL = "https://arthur-c.github.io/"
 languageCode = "en-us"
 title = "Arthur's Page"
 theme = "hyde"
