@@ -1,0 +1,19 @@
+baseURL = "http://arthur-c.github.io/"
+languageCode = "en-us"
+title = "Arthur's Page"
+theme = "hyde"
+contentDir = "content"
+dataDir = "data"
+publishDir = "public"
+summaryLength = "20"
+
+enableRobotsTXT = true
+newContentEditor = "nvim"
+disqusShortname = "arthurc"
+
+
+[params]
+author = "Arthur Clément"
+github = "https://github.com/arthur-c"
+copyright = "clement.arthur@gmail.com"
+description = "arthur-c.github.io"
