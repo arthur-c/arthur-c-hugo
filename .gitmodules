@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:arthur-c/arthur-c.github.io.git
 	branch = master
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = git@github.com:spf13/hyde.git
+	branch = master
